@@ -4,21 +4,17 @@ Name: Emma Hughes
 Campus: Lanarkshire
 Banner ID: B01804157
 
-Programme decsription:
+Programme Description:
+This programme uses a separate Python module, security_tools.py, containing three cybersecurity functions: 
+-password validation
+-IP address validation
+-random strong password generation.
 
-This program contains reusable cybersecurity functions stored in a separate Python module called security_tools.py.
+The main program imports these functions to check passwords and IP addresses, suggesting a stronger password if needed.
 
-The module includes three functions:
--Password validation to check whether a password meets basic strength requirements.
--IP address validation to check whether an IPv4 address is correctly formatted and within the valid range.
--Password generation to create a random strong password containing a mixture of uppercase letters, lowercase letters, numbers and symbols.
-
-The main program imports the module and allows the user to test a password and IP address. If the password is not strong enough, the program suggests a randomly generated password.
-
-How to run:
-1. Make sure both main.py and security_tools.py are saved in the same folder
-2. Open main.py in a python virtual environment such as virtual studio code
-3. Run the programme
-4. Enter a password when prompted
-5. Enter an IP address when prompted
-6. Review the validation results and any suggested password
+How to Run
+1. Save main.py and security_tools.py in the same folder
+2. Open the folder in a python virtual environment such as Visual Studio Code
+3. Run main.py
+4. Enter a password and IP address when prompted
+5. Review the results and any suggested password the programme suggests based on what you entered
