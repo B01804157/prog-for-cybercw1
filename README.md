@@ -4,27 +4,21 @@ Name: Emma Hughes
 Campus: Lanarkshire
 Banner ID: B01804157
 
-This repository contains my five programming exercises for Coursework 1. Each exercise is stored in its own Git branch.
+Programme decsription:
 
-Programming Excercises:
-Task 1 - Security tool: A menu security program with authentication and security features.
-Branch - security-tool
+This program contains reusable cybersecurity functions stored in a separate Python module called security_tools.py.
 
-Task 2 - Security Event Logger: Records successful and failed login attempts.
-Branch - security-event-logger
+The module includes three functions:
+-Password validation to check whether a password meets basic strength requirements.
+-IP address validation to check whether an IPv4 address is correctly formatted and within the valid range.
+-Password generation to create a random strong password containing a mixture of uppercase letters, lowercase letters, numbers and symbols.
 
-Task 3 - IP Address Validator: Checks whether an IPv4 address is valid.
-Branch - ip-address-validator
+The main program imports the module and allows the user to test a password and IP address. If the password is not strong enough, the program suggests a randomly generated password.
 
-Task 4 - Security Incident Manager: Stores and manages security incident information using dictionaries.
-Branch - security-incident-manager
-
-Task 5 - Cyber Security Utilities: Reusable functions for password validation, IP validation and random password generation.
-Branch - cyber-security-utilities
-
-Repository Structure:
-Each branch contains:
-- A python source code for the task
-- A README explaining the program and how to run it
-- A License file
-
+How to run:
+1. Make sure both main.py and security_tools.py are saved in the same folder
+2. Open main.py in a python virtual environment such as virtual studio code
+3. Run the programme
+4. Enter a password when prompted
+5. Enter an IP address when prompted
+6. Review the validation results and any suggested password
