@@ -1,6 +1,5 @@
 #Import modules needed to generate the random password
 import random
-import string
 
 #Function to check whether a password meets the security requirements
 def validate_password(password):
@@ -66,7 +65,13 @@ def validate_ip(ip):
     #Return True if all parts of the IP address are valid
     return True
 
+uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+lowercase = "abcdefghijklmnopqrstuvwxyz"
+digits = "0123456789"
+symbols = "!@#$%^&*"
 
+
+#Function to generate a random strong password
 #Function to generate a random strong password
 def generate_password():
 
@@ -77,20 +82,20 @@ def generate_password():
     password = []
 
     #Add at least one uppercase letter
-    password.append(random.choice(string.ascii_uppercase))
+    password.append(random.choice(uppercase))
 
     #Add at least one lowercase letter
-    password.append(random.choice(string.ascii_lowercase))
+    password.append(random.choice(lowercase))
 
     #Add at least one digit
-    password.append(random.choice(string.digits))
+    password.append(random.choice(digits))
 
     #Add at least one symbol
-    password.append(random.choice(string.punctuation))
+    password.append(random.choice(symbols))
 
-    #Add random characters until the desired length is reached
+    #Add random characters until the correct length is met
     while len(password) < length:
-        characters = string.ascii_letters + string.digits + string.punctuation
+        characters = uppercase + lowercase + digits + symbols
         password.append(random.choice(characters))
 
     #Shuffle the characters to make the password less guessable
