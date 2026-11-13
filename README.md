@@ -4,7 +4,7 @@ Name: Emma Hughes
 Campus: Lanarkshire
 Banner ID: B01804157
 
-Program Description:
+Programme Description:
 This programme authenticates a user and records security events, including failed and successfull login attempts. Each event is assigned an event ID and recorded with the relevant details.
 
 How to run programme:
