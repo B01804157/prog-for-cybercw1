@@ -4,27 +4,16 @@ Name: Emma Hughes
 Campus: Lanarkshire
 Banner ID: B01804157
 
-This repository contains my five programming exercises for Coursework 1. Each exercise is stored in its own Git branch.
+Programme description:
+This programme uses a python dictionary to store and manage security incident information. It stores details such as username, IP address, risk level and event type.
 
-Programming Excercises:
-Task 1 - Security tool: A menu security program with authentication and security features.
-Branch - security-tool
+The programme displays the incident details, uodates the risk level, adds an investigation status, removes an event field and displays the final incident information. It also calculates and displays the total number of fields remaining in the dictionary.
 
-Task 2 - Security Event Logger: Records successful and failed login attempts.
-Branch - security-event-logger
+How to run:
+1. Open the python file task4.py
+2. Run the programme
+3. The security incident details will be displayed
+4. Review the updated incident information and number of fields total
 
-Task 3 - IP Address Validator: Checks whether an IPv4 address is valid.
-Branch - ip-address-validator
 
-Task 4 - Security Incident Manager: Stores and manages security incident information using dictionaries.
-Branch - security-incident-manager
-
-Task 5 - Cyber Security Utilities: Reusable functions for password validation, IP validation and random password generation.
-Branch - cyber-security-utilities
-
-Repository Structure:
-Each branch contains:
-- A python source code for the task
-- A README explaining the program and how to run it
-- A License file
 
