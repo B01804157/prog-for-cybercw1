@@ -4,27 +4,21 @@ Name: Emma Hughes
 Campus: Lanarkshire
 Banner ID: B01804157
 
-This repository contains my five programming exercises for Coursework 1. Each exercise is stored in its own Git branch.
+Programme Description:
+This programme is a basic cybersecurity tool that provides several security related features through a security tool menu system.
 
-Programming Excercises:
-Task 1 - Security tool: A menu security program with authentication and security features.
-Branch - security-tool
+Features of this programme:
+1.Event Counter: Checks password attempts and calculates the percentage of incorrect attempts, displaying an alert if more than 50% are incorrect.
 
-Task 2 - Security Event Logger: Records successful and failed login attempts.
-Branch - security-event-logger
+2.Brute-Force Simulation: Simulates password guessing using a predefined password and a maximum number of attempts.
 
-Task 3 - IP Address Validator: Checks whether an IPv4 address is valid.
-Branch - ip-address-validator
+3.Login Authentication: Allows users to attempt to log in and freezes access for 24 hours after three failed attempts.
 
-Task 4 - Security Incident Manager: Stores and manages security incident information using dictionaries.
-Branch - security-incident-manager
+4.Exit: Allows the user to exit the security tool.
 
-Task 5 - Cyber Security Utilities: Reusable functions for password validation, IP validation and random password generation.
-Branch - cyber-security-utilities
-
-Repository Structure:
-Each branch contains:
-- A python source code for the task
-- A README explaining the program and how to run it
-- A License file
-
+How to Run:
+1.Open the Python file task1.py.
+2.Run the program.
+3.Complete the initial authentication.
+4.Select an option from the security tool menu.
+5.Follow the instructions displayed by the program.
