@@ -4,27 +4,16 @@ Name: Emma Hughes
 Campus: Lanarkshire
 Banner ID: B01804157
 
-This repository contains my five programming exercises for Coursework 1. Each exercise is stored in its own Git branch.
+Task 3 - IP Address Validator
 
-Programming Excercises:
-Task 1 - Security tool: A menu security program with authentication and security features.
-Branch - security-tool
+Programme Description:
+This programme checks whether the IPv4 address is valid or not. It checks that the address contains four numeric sections, seperated by exactly 3 dots. Each set must contain a number between 0 and 255.
 
-Task 2 - Security Event Logger: Records successful and failed login attempts.
-Branch - security-event-logger
+The programme displays whether the Ip address entered by the user is valid or invalid.
 
-Task 3 - IP Address Validator: Checks whether an IPv4 address is valid.
-Branch - ip-address-validator
-
-Task 4 - Security Incident Manager: Stores and manages security incident information using dictionaries.
-Branch - security-incident-manager
-
-Task 5 - Cyber Security Utilities: Reusable functions for password validation, IP validation and random password generation.
-Branch - cyber-security-utilities
-
-Repository Structure:
-Each branch contains:
-- A python source code for the task
-- A README explaining the program and how to run it
-- A License file
+How to run:
+1. Open the python file task3.py
+2. Run the programme
+3. Enter an IP address
+4. The programme will determine whether the address is valid or invalid
 
