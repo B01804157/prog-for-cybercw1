@@ -21,7 +21,7 @@ while not authenticated:
     password = input("Please enter your password: ")
 
     #Get the current date and time
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now()
 
     #Check the username and password are correct
     if username == correct_username and password == correct_password:
